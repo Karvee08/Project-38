@@ -46,7 +46,7 @@ function setup() {
   Monkey.scale = 0.15
   
   invisibleGround = createSprite(200,500,400,10);
-  invisibleGround.visible = true;
+  invisibleGround.visible = false;
   
    score = 0; 
    counter = 0;
